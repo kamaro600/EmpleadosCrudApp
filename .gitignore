@@ -38,13 +38,11 @@ appsettings.Local.json
 appsettings.Development.json
 
 ## --- Environment / secrets ---
-.env
 secrets.json
 *.secret.json
 
 ## --- Docker ---
 **/Dockerfile.*
-**/docker-compose*.yml
 **/docker-compose*.override.yml
 docker-compose.override.yml
 .docker/
