@@ -1,0 +1,124 @@
+## --- .NET build files ---
+bin/
+obj/
+out/
+[Bb]uild/
+[Ll]ogs/
+*.log
+*.tlog
+*.tmp
+
+## --- Visual Studio / VS Code ---
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+## --- Rider / JetBrains ---
+.idea/
+*.iml
+
+## --- Paket / NuGet ---
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+*.nuspec
+project.lock.json
+project.assets.json
+
+## --- ASP.NET Core ---
+wwwroot/lib/
+appsettings.*.json.user
+appsettings.Local.json
+appsettings.Development.json
+
+## --- Environment / secrets ---
+.env
+secrets.json
+*.secret.json
+
+## --- Docker ---
+**/Dockerfile.*
+**/docker-compose*.yml
+**/docker-compose*.override.yml
+docker-compose.override.yml
+.docker/
+docker-data/
+*.pid
+*.seed
+
+## --- Build artifacts ---
+*.dll
+*.exe
+*.pdb
+*.mdb
+*.cache
+*.config
+*.db
+*.bak
+*.swp
+
+## --- Publish output ---
+/publish/
+/dist/
+/node_modules/
+*.tar.gz
+*.zip
+
+## --- Test results ---
+[Tt]est[Rr]esult*/
+*.VisualState.xml
+*.coverage
+*.coveragexml
+*.trx
+
+## --- Resharper / analysis ---
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+## --- Logs / temp ---
+*.log
+*.err
+*.out
+*.trace
+*.orig
+*.temp
+*.tmp
+~$*
+*.bak
+
+## --- macOS / Linux / Windows ---
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+$RECYCLE.BIN/
+.Trash-*/
+*.swp
+*.swo
+
+## --- Local tools / user files ---
+tools/
+.idea/
+*.local
+*.rsuser
+*.opendb
+*.dbmdl
+*.jfm
+
+## --- Entity Framework ---
+Migrations/obj/
+Migrations/bin/
+
+## --- Optional: ignore user secrets folder (if using dotnet user-secrets) ---
+**/secrets/
+
+## --- Optional: ignore generated files for swagger or docs ---
+/swagger/
+/docs/
