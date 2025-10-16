@@ -16,6 +16,7 @@ Este proyecto es un crud simple para manejo de empleados con NET8 Y SQLSERVER
 1. Clonar el repository:
    ```
    git clone https://github.com/kamaro600/EmpleadosCrudApp.git
+   cd EmpleadosCrudApp
    ```
 
 3. Construir la aplicacion usando docker:
